@@ -1,0 +1,114 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>Profile</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Анкета">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form autocomplete="on">
+            <legend class="head_profile">Анкета участника</legend>
+            <div class="form">
+                <div class="input">
+                    <label>
+                        Маршрут:
+                        <select>
+                            <option></option>
+                            <optgroup label="Боливия"></optgroup>
+                                <option>Озеро Уюни</option>
+                            <optgroup label="Непал"></optgroup>
+                                <option>Гора Эверест</option>
+                            <optgroup label="Китай"></optgroup>
+                                <option>Река Ли</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Тариф:<br>
+                        <label class="text_inside"><input type="radio" name="tariff">Базовый</label><br>
+                        <label class="text_inside"><input type="radio" name="tariff">Все включено</label><br>
+                        <label class="text_inside"><input type="radio" name="tariff">Премиум</label>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        ФИО*:
+                        <input type="text" placeholder="Полностью, как в паспорте" required>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Пол:<br>
+                        <label class="text_inside"><input type="radio" name="gender" class="text_inside">Мужской</label><br>
+                        <label class="text_inside"><input type="radio" name="gender" class="text_inside">Женский</label>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Дата рождения:
+                        <input type="date">
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Полных лет*:
+                        <input type="number" min="18" max="60" required>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Телефон*:
+                        <input type="tel" required placeholder="+7 (999) 123-45-67" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}">
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        E-mail*:
+                        <input type="email" required>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Необходимый инвентарь:<br>
+                        <label class="text_inside"><input type="checkbox" name="inventory">Обувь</label><br>
+                        <label class="text_inside"><input type="checkbox" name="invetory">Одежда</label><br>
+                        <label class="text_inside"><input type="checkbox" name="inventory">Снаряжение</label><br>
+                        <label class="text_inside"><input type="checkbox" name="inventory">У меня все есть :)</label>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Справка о прививках:<br>
+                        <input type="file" multiple>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        Примечания, пожелания:
+                        <textarea cols="45" rows="5"></textarea>
+                    </label>
+                </div>
+
+                <div class="input">
+                    <label>
+                        <label class="text_inside"><input type="checkbox" required>С <a href="doc/HTML.pdf" target="blank">условиями</a> ознакомлен</label><br>
+                    </label>
+                </div>
+
+                <button class="button">Отправить</button>
+            </div>
+        </form>
+    </body>
+    </html>
