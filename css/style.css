@@ -1,5 +1,23 @@
 body {
     font-family: Tahoma, sans-serif;
+    background-image: url(../img/5.jpg);
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: 300px;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: normal;
+    margin-top: 10px;
 }
 
 .form {
@@ -35,4 +53,29 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.center {
+    text-align: center;
+}
+
+.main_menu li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+    background-color: #48D1CC;
+    padding: 10px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.block {
+    display: inline-block;
+    width: 300px;
+    margin: 50px 50px;
+    background-color: white;
 }
