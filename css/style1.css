@@ -1,0 +1,108 @@
+.bg {
+    background-color: teal;
+	height: 100px;
+	margin: 10px;
+}
+
+.bg1 {
+    background-color: teal;
+	height: 340px;
+    margin: 10px;
+}
+
+.conteiner {
+    margin: 0 auto;
+    height: 1200px;
+}
+
+.fixed {
+    position: fixed;
+    border: 1px solid white;
+	top: 40px;
+	right: 35%;
+	left: 35%; 
+}
+
+.absolute {
+	position: absolute;
+	top: 40px;
+    left: 3%;
+    right: 70%;
+    border: 1px solid white;
+}
+
+.relative {
+    top: 20px;
+    left: 20px;
+    right: 20px;            /* не работает( */
+    position: relative;
+    bottom: 20px;
+    border: 1px solid white;
+}
+
+.inherit {                   /* не поняла что это */
+    position: inherit;
+    border: 1px soli white;
+    left: 20px;
+    bottom: 20px;
+}
+
+.sticky {
+    position: sticky;
+    top: 100px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid white;
+}
+
+.padding_s {
+    padding: 20px;
+    height: 60px;
+}
+
+.padding_i {
+    padding: 20px;
+    height: 300px;
+}
+
+div p {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: gold;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    margin: 40px auto;
+}
+
+img {
+    margin: 10px 10px;
+    float: left;
+    shape-outside: circle(50%);
+    width: 200px;
+    height: 200px;
+}
+
+.container_float p{
+    color: teal;
+    text-align: left;
+}
+
+.container_float:after {
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
