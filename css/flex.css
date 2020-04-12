@@ -1,0 +1,65 @@
+body {
+    background-image: url(../img/10.png);
+    background-position: top 100%;
+    background-size: cover;
+}
+
+
+.flex-conteiner {
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    right: 3%;
+    /* border: 5px solid red; */
+}
+
+.flex-1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 12.5%;
+    margin: 0;
+}
+
+.itm1 {
+    align-self: flex-start;
+    order: 2;
+}
+
+.itm2 {
+    align-self: flex-start;
+    order: 4;
+}
+
+.itm3 {
+    align-self: flex-start;
+    order: 6;
+}
+
+.itm4 {
+    align-self: flex-start;
+    order: 8;
+}
+
+.itm5 {
+    align-self: flex-end;
+    order: 1;
+}
+
+.itm6 {
+    align-self: flex-end;
+    order: 3;
+}
+
+.itm7 {
+    align-self: flex-end;
+    order: 5;
+}
+
+.itm8 {
+    align-self: flex-end;
+    order: 7;
+}
