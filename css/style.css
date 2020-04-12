@@ -20,7 +20,7 @@ h3 {
     margin-top: 10px;
 }
 
-.form {
+.form1 {
     margin: auto;
     width: 450px;
     border: 3px solid #48D1CC;
@@ -141,7 +141,11 @@ li:hover > .sub {
 }
 
 .form {
-	display: none;
+    margin: auto;
+    display: none;
+    width: 450px;
+    border: 3px solid #48D1CC;
+    background-color: white;
 }
 
 .form:target {
