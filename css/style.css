@@ -173,3 +173,7 @@ li:hover > .sub {
     text-decoration: none;
     color: white;
 }
+
+.shadow {
+    box-shadow: 0 0 20px black;
+}
